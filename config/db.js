@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = 'mongodb://localhost:27017/sensores';
+const MONGO_URI = 'mongodb://TUNOMBRE:TUCONTRASEÑA@localhost:27017/sensores?authSource=admin';
 
 const connectDB = async () => {
     try {

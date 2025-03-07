@@ -1,0 +1,11 @@
+# Omitir la carpeta de dependencias de Node.js
+node_modules/
+# Evitar archivos de configuración del editor de código (VS Code)
+.vscode/
+# Excluir variables de entorno y configuraciones sensibles
+.env
+# Evitar archivos de logs
+logs/
+*.log
+# Evitar archivos de caché
+.cache/

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 
 const MONGO_URI = 'mongodb://TUNOMBRE:TUCONTRASEÑA@localhost:27017/sensores?authSource=admin';

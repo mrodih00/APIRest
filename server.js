@@ -7,7 +7,7 @@ const readingRoutes = require('./routes/readings.routes');
 const sanitize = require("mongo-sanitize");
 
 const app = express();
-const port = 3000;
+const port = 3000 || process.env.PORT;
 
 // Conectar a la base de datos
 connectDB();
